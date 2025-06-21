@@ -8,22 +8,22 @@ Durante esse curso, estou aprendendo na prática como aplicar testes automatizad
 
 ## 📚 Conteúdo abordado no curso
 
-✔️ Configuração do ambiente local de desenvolvimento
-✔️ Instalação e configuração do Cypress
-✔️ Criação de testes automatizados de interface gráfica (GUI)
-✔️ Testes automatizados de API com feedback visual no navegador
-✔️ Testes de APIs que requerem token de acesso
-✔️ Otimização de testes com comandos objetivos e diretos
-✔️ Salvamento e restauração de sessão do usuário no navegador
-✔️ Validação e tratamento de sessões expiradas
-✔️ Preparação da massa de dados antes da execução dos testes
-✔️ Proteção de dados sensíveis (como senhas e tokens)
-✔️ Organização de testes em camadas: API, CLI e GUI
-✔️ Estruturação dos testes: pré-condições, ações e resultados esperados
-✔️ Geração de dados aleatórios
-✔️ Ativação de funcionalidades experimentais do Cypress
-✔️ Execução de comandos no sistema operacional
-✔️ Testes que envolvem leitura de arquivos
+- ✔️ Configuração do ambiente local de desenvolvimento
+- ✔️ Instalação e configuração do Cypress
+- ✔️ Criação de testes automatizados de interface gráfica (GUI)
+- ✔️ Testes automatizados de API com feedback visual no navegador
+- ✔️ Testes de APIs que requerem token de acesso
+- ✔️ Otimização de testes com comandos objetivos e diretos
+- ✔️ Salvamento e restauração de sessão do usuário no navegador
+- ✔️ Validação e tratamento de sessões expiradas
+- ✔️ Preparação da massa de dados antes da execução dos testes
+- ✔️ Proteção de dados sensíveis (como senhas e tokens)
+- ✔️ Organização de testes em camadas: API, CLI e GUI
+- ✔️ Estruturação dos testes: pré-condições, ações e resultados esperados
+- ✔️ Geração de dados aleatórios
+- ✔️ Ativação de funcionalidades experimentais do Cypress
+- ✔️ Execução de comandos no sistema operacional
+- ✔️ Testes que envolvem leitura de arquivos
 
 ---
 
