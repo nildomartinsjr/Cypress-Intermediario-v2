@@ -1,34 +1,51 @@
-# Testes automatizados com Cypress - Intermediário
+# 🚀 Estudos com Cypress Intermediário
 
-👋 Seja bem-vinda(o)!
+Este repositório contém os **meus estudos práticos** baseados no curso _Cypress Intermediário_ ministrado por [Walmyr Filho](https://github.com/wlsf82).
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+Durante esse curso, estou aprendendo na prática como aplicar testes automatizados modernos com **Cypress**, organizando os testes por camadas (API, CLI, GUI) e ganhando domínio real sobre automação de testes front-end e back-end.
 
-## O que você vai aprender
+---
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+## 📚 Conteúdo abordado no curso
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+- ✔️ Configuração do ambiente local de desenvolvimento
+- ✔️ Instalação e configuração do Cypress
+- ✔️ Criação de testes automatizados de interface gráfica (GUI)
+- ✔️ Testes automatizados de API com feedback visual no navegador
+- ✔️ Testes de APIs que requerem token de acesso
+- ✔️ Otimização de testes com comandos objetivos e diretos
+- ✔️ Salvamento e restauração de sessão do usuário no navegador
+- ✔️ Validação e tratamento de sessões expiradas
+- ✔️ Preparação da massa de dados antes da execução dos testes
+- ✔️ Proteção de dados sensíveis (como senhas e tokens)
+- ✔️ Organização de testes em camadas: API, CLI e GUI
+- ✔️ Estruturação dos testes: pré-condições, ações e resultados esperados
+- ✔️ Geração de dados aleatórios
+- ✔️ Ativação de funcionalidades experimentais do Cypress
+- ✔️ Execução de comandos no sistema operacional
+- ✔️ Testes que envolvem leitura de arquivos
 
-## Vamos começar?
+---
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## 🛠️ Tecnologias e ferramentas utilizadas
 
-___
+- [Cypress](https://www.cypress.io/)
+- JavaScript
+- Git & GitHub
+- VS Code
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+---
+
+## ▶️ Como executar o projeto localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/nildomartinsjr/Cypress-Intermediario-v2.git
+cd Cypress-Intermediario-v2
+
+# Instale as dependências
+npm install
+
+# Execute os testes
+npx cypress open
+
