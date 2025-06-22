@@ -1,3 +1,4 @@
+//Comando customizado fazer LOGIN
 Cypress.Commands.add('login', (
   user = Cypress.env('user_name'),
   password = Cypress.env('user_password'),
@@ -13,9 +14,20 @@ Cypress.Commands.add('login', (
   login()
 })
 
+//Comando customizado fazer LOGOUT
 Cypress.Commands.add('logout',()=>{
   
   cy.get('.qa-user-avatar').click()
   cy.contains('Sign out').click()
 
+})
+
+//Comando customizado CRIAR PROJETO
+Cypress.Commands.add('gui_createProject', project => {
+  cy.visit('/projects/new')
+
+  cy.get('#project_name').type(project.name)
+  cy.get('#project_description').type(project.description)
+  cy.get('.qa-initialize-with-readme-checkbox').check()
+  cy.contains('Create project').click()
 })
